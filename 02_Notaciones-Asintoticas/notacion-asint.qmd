@@ -1,0 +1,67 @@
+---
+title: "Notación Asintótica" 
+subtitle: DISEÑO Y ANÁLISIS DE ALGORITMOS
+format: 
+  revealjs:
+    transition: convex
+    preview-links: auto
+    theme: [default, extras/custom.scss]
+    slide-number: true
+    logo: extras/logonew.gif
+    css: extras/logo.css
+    incremental: true
+    embed-resources: true
+title-slide-attributes:
+    data-background-image: "extras/contidist.png"
+    data-background-size: contain
+    data-background-opacity: "0.99"
+editor: visual
+author: "Walter Quispe Vargas"
+institute: "Docente - EAP Ciencia de la Computación - Universidad Continental"
+lang: es
+engine: knitr
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = TRUE, echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+## Propósito de la Sesión {.center}
+
+-   Analizar la `eficiencia` de algoritmos usando notación asintótica en situaciones que requieren la comparación del rendimiento de distintas soluciones computacionales.
+-   Presentar el paradigma Divide y Vencerás para plantear recurrencias.
+-   Resolver Recurrencias.
+-   Aplicar el *Master Theorem* para resolver recurrencias.
+
+## Contenidos a tratar {.center}
+
+-   Tiempo de Ejecución: *Running Time* $T(n)$
+
+-   Notaciones Asisntóticas:
+
+    -   Big-O: $O$
+    -   Big-Omega: $\Omega$
+    -   Big-Theta: $\Theta$
+
+-   Recurrencias : $T(n)=aT(\frac{n}{b})+f(n)$
+
+    -   *Master Theorem*
+
+## ¿Qué aprendimos hoy? {.center}
+
+-   Eficiencia
+
+-   Divide y venceras
+
+-   Recurrencias
+
+## Referencias Bibliografícas {.center}
+
+-   *Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2022). Introduction to Algorithms (4th ed.). The MIT Press.*
+
+    -   Capítulo 3 *Running Time*
+    -   Capítulo 4 *Divide and Conquer*
+
+## PREGUNTAS... {.center}
+
+![](extras/cierre.png){.r-stretch .fragment .absolute top="70" left="0" width="1000" height="600"}
